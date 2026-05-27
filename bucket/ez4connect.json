@@ -1,16 +1,16 @@
 {
-    "version": "1.6.4",
+    "version": "1.7.0",
     "description": "A desktop-friendly alternative to EasyConnect client - supports aTrust and EasyConnect protocols",
     "homepage": "https://github.com/chenx-dust/EZ4Connect",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chenx-dust/EZ4Connect/releases/download/v1.6.4/EZ4Connect-v1.6.4-windows-x64.zip",
-            "hash": "6ea9c1011ef52d744f09c6019e7a19a66570cf02fd0ab52b9909004bba67f21b"
+            "url": "https://github.com/chenx-dust/EZ4Connect/releases/download/v1.7.0/EZ4Connect-v1.7.0-windows-x64.zip",
+            "hash": "f917cdede4e44743d2de6b561a20848dd63c1893c7dff98058e06fadfee2ae71"
         },
         "arm64": {
-            "url": "https://github.com/chenx-dust/EZ4Connect/releases/download/v1.6.4/EZ4Connect-v1.6.4-windows-arm64.zip",
-            "hash": "4af200add40f3507c68d804ae3ba1fa337a349469a467949cd265bfb357aba0b"
+            "url": "https://github.com/chenx-dust/EZ4Connect/releases/download/v1.7.0/EZ4Connect-v1.7.0-windows-arm64.zip",
+            "hash": "5256f7de9194d4a47bb44b16bcbe5512b1573b7e81956bda82101b1df89befb8"
         }
     },
     "extract_dir": "EZ4Connect",
