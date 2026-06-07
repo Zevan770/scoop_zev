@@ -15,6 +15,9 @@
     },
     "bin": "bluetuith.exe",
     "checkver": "github",
+    "suggest": {
+        "haraltd": "haraltd"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
