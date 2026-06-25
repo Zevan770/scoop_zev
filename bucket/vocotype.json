@@ -1,10 +1,10 @@
 {
-    "version": "1.5.5",
+    "version": "1.5.7",
     "description": "VocoType——开源离线语音识别和字幕自动生成工具",
     "homepage": "https://vocotype.com",
     "license": "MIT",
-    "url": "https://github.com/233stone/vocotype-cli/releases/download/v1.5.5/VocoType_1.5.5_x64-setup.exe",
-    "hash": "3fb6c4cb26b12b2c716fb06fff66561902dc3922cd12c486720e0f2c511bc977",
+    "url": "https://github.com/233stone/vocotype-cli/releases/download/v1.5.7/VocoType_1.5.7_x64-setup.exe",
+    "hash": "5629de8aec4d6d7a477855900597a374c6001c076f40e931fdaf15741d7025c2",
     "checkver": {
         "github": "https://github.com/233stone/vocotype-cli",
         "regex": "VocoType_([\\d.]+)_x64-setup.exe"
