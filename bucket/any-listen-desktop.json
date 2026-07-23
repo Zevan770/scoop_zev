@@ -2,10 +2,7 @@
     "version": "0.7.1",
     "description": "Any Listen - A cross-platform private music playback service.",
     "homepage": "https://github.com/any-listen/any-listen-desktop",
-    "license": {
-        "identifier": "GPL-3.0",
-        "url": "https://github.com/any-listen/any-listen-desktop/blob/main/LICENSE"
-    },
+    "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://github.com/any-listen/any-listen-desktop/releases/download/v0.7.1/any-listen-0.7.1-win_x64-green.7z",
@@ -24,7 +21,9 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/any-listen/any-listen-desktop"
+        "url": "https://api.github.com/repos/any-listen/any-listen-desktop/releases/latest",
+        "jp": "$.assets[*].browser_download_url",
+        "regex": "any-listen-([\\d.]+)-x64-green\\.7z"
     },
     "autoupdate": {
         "architecture": {
@@ -34,6 +33,9 @@
             "arm64": {
                 "url": "https://github.com/any-listen/any-listen-desktop/releases/download/v$version/any-listen-$version-win_arm64-green.7z"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
         }
     }
 }
