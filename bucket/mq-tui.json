@@ -1,5 +1,5 @@
 {
-    "version": "0.1.27",
+    "version": "0.2.0",
     "description": "Text-based User Interface for the mq Markdown processor",
     "homepage": "https://github.com/harehare/mq-tui",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/harehare/mq-tui/releases/download/v0.1.27/mq-tui-x86_64-pc-windows-msvc.exe#/mq-tui.exe",
-            "hash": "eae6c08fa9808067eaf33d76c2f8eb221d796168019bd932aa2d66b869f9882d"
+            "url": "https://github.com/harehare/mq-tui/releases/download/v0.2.0/mq-tui-x86_64-pc-windows-msvc.exe#/mq-tui.exe",
+            "hash": "e28050bac4510e811a229370bd97a0cea727202920226accb36b8d22a93d2023"
         }
     },
     "bin": "mq-tui.exe",
