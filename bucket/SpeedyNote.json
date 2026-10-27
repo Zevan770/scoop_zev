@@ -1,15 +1,18 @@
 {
-    "version": "1.5.1",
+    "version": "1.6.3",
     "description": "A simple note app with good performance and PDF import support",
     "homepage": "https://github.com/alpha-liu-01/SpeedyNote",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alpha-liu-01/SpeedyNote/releases/download/v1.5.1/SpeedyNoteInstaller_1.5.1_amd64.exe",
-            "hash": "0185f69901cf8803d549c9760123dc7347ac707a8c2ff358e2ef611ea12f9d93"
+            "url": "https://github.com/alpha-liu-01/SpeedyNote/releases/download/v1.6.3/SpeedyNoteInstaller_1.6.3_amd64.exe",
+            "hash": "8744993c217f434023652653fb7fc9f3c7485ef30d544ff4931dd06229854e67"
         }
     },
     "innosetup": true,
+    "bin": [
+        "speedynote.exe",
+    ],
     "shortcuts": [
         [
             "speedynote.exe",
