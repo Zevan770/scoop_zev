@@ -12,7 +12,7 @@
     "innosetup": true,
     "shortcuts": [
         [
-            "NoteApp.exe",
+            "speedynote.exe",
             "SpeedyNote App"
         ]
     ],
