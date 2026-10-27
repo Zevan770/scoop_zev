@@ -1,5 +1,5 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "A full-featured download manager",
     "homepage": "https://github.com/Taoister39/tauri-motrix",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Taoister39/tauri-motrix/releases/download/v0.2.4/Tauri.Motrix_0.2.4_x64-setup.exe#/dl.7z",
-            "hash": "sha256:0c20c036e31fe01193782a324288d6694580c6f13e5bbb12887cc023965a4bd4"
+            "url": "https://github.com/Taoister39/tauri-motrix/releases/download/v0.2.5/Tauri.Motrix_0.2.5_x64-setup.exe#/dl.7z",
+            "hash": "5cf4f3a32e0ab76087321f74ee0777d2d708dae304d781820fe2a18b832f81c8"
         }
     },
     "bin": [
