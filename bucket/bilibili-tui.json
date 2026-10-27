@@ -1,12 +1,12 @@
 {
-    "version": "1.0.12",
+    "version": "1.0.14",
     "description": "A terminal user interface (TUI) client for Bilibili",
     "homepage": "https://github.com/MareDevi/bilibili-tui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MareDevi/bilibili-tui/releases/download/v1.0.12/bilibili-tui-x86_64-pc-windows-msvc.zip",
-            "hash": "d69b56a00b94875cd6e1ee8bc26026bc86b46c1bd2ca4c9eda84654658dc4c39"
+            "url": "https://github.com/MareDevi/bilibili-tui/releases/download/v1.0.14/bilibili-tui-x86_64-pc-windows-msvc.zip",
+            "hash": "ae7e4bb9e94768b3dc755fe8ac67bcc5bf50c983349928aeb1849967ca5a8276"
         }
     },
     "bin": "bilibili-tui.exe",
