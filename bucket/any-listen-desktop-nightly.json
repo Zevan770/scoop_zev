@@ -22,20 +22,25 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/any-listen/any-listen-desktop/releases",
-        "jsonpath": "$.tag_name",
+        "jsonpath": "$[0].tag_name",
         "regex": "v([\\d.]+-beta\\.\\d+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/any-listen/any-listen-desktop/releases/download/v$version/any-listen-$version-win_x64-green.7z"
+                "url": "https://github.com/any-listen/any-listen-desktop/releases/download/v$version/any-listen-$version-win_x64-green.7z",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS.txt",
+                    "regex": "$sha256\\s+any-listen-$version-win_x64-green\\.7z"
+                }
             },
             "arm64": {
-                "url": "https://github.com/any-listen/any-listen-desktop/releases/download/v$version/any-listen-$version-win_arm64-green.7z"
+                "url": "https://github.com/any-listen/any-listen-desktop/releases/download/v$version/any-listen-$version-win_arm64-green.7z",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS.txt",
+                    "regex": "$sha256\\s+any-listen-$version-win_arm64-green\\.7z"
+                }
             }
-        },
-        "hash": {
-            "url": "$baseurl/SHA256SUMS.txt"
         }
     }
 }
